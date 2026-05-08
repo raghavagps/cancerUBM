@@ -17,8 +17,7 @@ This dataset is also available on Zenodo at
 
 Urine-based biomarkers offer a non-invasive and easily accessible alternative for cancer management. CancerUBM is built upon a large-scale analysis of the **Human Urinary Peptide Database**, utilizing data from 1,525 oncological samples and 1,503 healthy controls.
 
-* 
-**Sample Diversity:** The dataset includes patients with prostate cancer, bladder cancer, renal cancer, Kaposi sarcoma, benign prostatic hyperplasia, and more.
+* **Sample Diversity:** The dataset includes patients with prostate cancer, bladder cancer, renal cancer, Kaposi sarcoma, benign prostatic hyperplasia, and more.
 
 
 * **Technological Basis:** The platform focuses on **CE/MS** (Capillary Electrophoresis/Mass Spectrometry) data, which is highly suitable for analyzing naturally occurring human urinary peptides.
