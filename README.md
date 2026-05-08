@@ -5,6 +5,13 @@ This resource utilizes mass spectrometry-derived intensity values to identify po
 
 **Web Server:** [http://webs.iiitd.edu.in/raghava/cancerubm/](http://webs.iiitd.edu.in/raghava/cancerubm/) 
 
+## Citation
+Bhalla, S., Chaudhary, K., Gautam, A., Sharma, S., & Raghava, G. P. S. (2018).
+A web bench for analysis and prediction of oncological status from proteomics data of urine samples. bioRxiv.
+
+https://doi.org/10.1101/315564
+
+This dataset is also available on Zenodo at
 
 ## About the Platform
 
@@ -14,10 +21,7 @@ Urine-based biomarkers offer a non-invasive and easily accessible alternative fo
 **Sample Diversity:** The dataset includes patients with prostate cancer, bladder cancer, renal cancer, Kaposi sarcoma, benign prostatic hyperplasia, and more.
 
 
-* 
-**Technological Basis:** The platform focuses on **CE/MS** (Capillary Electrophoresis/Mass Spectrometry) data, which is highly suitable for analyzing naturally occurring human urinary peptides.
-
-
+* **Technological Basis:** The platform focuses on **CE/MS** (Capillary Electrophoresis/Mass Spectrometry) data, which is highly suitable for analyzing naturally occurring human urinary peptides.
 
 
 ## Key Features
@@ -26,16 +30,11 @@ Urine-based biomarkers offer a non-invasive and easily accessible alternative fo
 
 Users can predict the oncological status of a sample through three distinct interfaces:
 
-* 
-**Mass-CE Spectra:** Predicts status based on spectral details including calibrated molecular mass, normalized CE migration time, and intensity.
+* **Mass-CE Spectra:** Predicts status based on spectral details including calibrated molecular mass, normalized CE migration time, and intensity.
 
+* **Peptide Sequence:** Utilizes known amino acid sequences along with spectral intensities.
 
-* 
-**Peptide Sequence:** Utilizes known amino acid sequences along with spectral intensities.
-
-
-* 
-**Protein Expression:** Detects status by computing the expression (mean, median, or maximum) of a protein based on the spectral intensities of its constituent peptides.
+* **Protein Expression:** Detects status by computing the expression (mean, median, or maximum) of a protein based on the spectral intensities of its constituent peptides.
 
 
 
@@ -43,57 +42,43 @@ Users can predict the oncological status of a sample through three distinct inte
 
 The platform facilitates mining of proteomics data at both protein and peptide levels:
 
-* 
-**Protein Level Analysis:** Computes and graphically displays various expression metrics for proteins.
+* **Protein Level Analysis:** Computes and graphically displays various expression metrics for proteins.
 
-
-* 
-**Peptide Level Analysis:** Provides a comparison of the user's spectral intensities against the Human Urinary Peptide Database, identifying the individual propensity of specific peptides to act as oncological biomarkers.
-
+* **Peptide Level Analysis:** Provides a comparison of the user's spectral intensities against the Human Urinary Peptide Database, identifying the individual propensity of specific peptides to act as oncological biomarkers.
 
 
 ### 3. High Performance Machine Learning
 
 The underlying models achieve high accuracy in discriminating oncological samples from healthy ones:
 
-* 
-**Spectra-based Models:** Achieved a maximum accuracy of **91.94%** using a 173-peptide feature set.
+* **Spectra-based Models:** Achieved a maximum accuracy of **91.94%** using a 173-peptide feature set.
 
 
-* 
-**Peptide-based Models:** Achieved **87.75%** accuracy based on 61 well-annotated peptides.
+* **Peptide-based Models:** Achieved **87.75%** accuracy based on 61 well-annotated peptides.
 
 
-* 
-**Protein-based Models:** Achieved **85.27%** accuracy by analyzing the average expression of 69 proteins.
-
+* **Protein-based Models:** Achieved **85.27%** accuracy by analyzing the average expression of 69 proteins.
 
 
 ## Significant Biomarkers
 
 The study identified nine key proteins whose fragments serve as potent biomarkers for oncological disorders:
 
-* 
-**Collagen Fragments:** Fragments of proteins such as **CO1A1_HUMAN** are more abundant in oncological samples and are strongly linked to tumor growth and angiogenesis.
+* **Collagen Fragments:** Fragments of proteins such as **CO1A1_HUMAN** are more abundant in oncological samples and are strongly linked to tumor growth and angiogenesis.
 
 
-* 
-**Other Key Proteins:** AIAT_HUMAN, CO1A2_HUMAN, CO3A1_HUMAN, FIBA_HUMAN, HBB_HUMAN, and UROM_HUMAN.
-
+* **Other Key Proteins:** AIAT_HUMAN, CO1A2_HUMAN, CO3A1_HUMAN, FIBA_HUMAN, HBB_HUMAN, and UROM_HUMAN.
 
 
 ## Applications
 
-* 
-**Early Detection:** Assisting in the discovery of novel biomarkers for early cancer diagnosis.
+* **Early Detection:** Assisting in the discovery of novel biomarkers for early cancer diagnosis.
 
 
-* 
-**Non-Invasive Diagnostics:** Providing a platform for clinical researchers to analyze urine samples without surgical intervention.
+* **Non-Invasive Diagnostics:** Providing a platform for clinical researchers to analyze urine samples without surgical intervention.
 
 
-* 
-**Biomarker Validation:** Serving as a definition and validation bench for new urinary biomarkers.
+* **Biomarker Validation:** Serving as a definition and validation bench for new urinary biomarkers.
 
 
 
