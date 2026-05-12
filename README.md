@@ -11,7 +11,7 @@ A web bench for analysis and prediction of oncological status from proteomics da
 
 https://doi.org/10.1101/315564
 
-This dataset is also available on Zenodo at
+This dataset is also available on Zenodo at https://doi.org/10.5281/zenodo.20085356
 
 ## About the Platform
 
